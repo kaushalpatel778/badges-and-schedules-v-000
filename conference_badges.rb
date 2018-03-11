@@ -9,8 +9,9 @@ end
 
 def assign_rooms(speakers)
     i=1
+    arr = []
     while i <= 7
-      puts "Welcome #{speakers}, your room number is : #{i}"
+      arr << "Hello, #{speakers}! You'll be assigned to room #{i}"
       i += 1
     end
 end
