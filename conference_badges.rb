@@ -47,5 +47,5 @@ def printer(speakers)
       puts assign_rooms(speakers[i])
       i += 1
   end
-  
+
 end
