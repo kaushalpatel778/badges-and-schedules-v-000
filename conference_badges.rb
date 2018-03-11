@@ -12,4 +12,5 @@ def assign_rooms(speakers)
     while i <= 7
       return "Welcome #{speakers}, your room number is : #{i}"
       i += 1
+    end
 end
