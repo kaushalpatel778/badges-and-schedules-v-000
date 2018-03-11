@@ -24,8 +24,9 @@ def assign_rooms(speakers)
     end
     return arr
 end
+
 def printer
-a=batch_badge_creator(names)
-b=assign_rooms(speakers)
+    a=batch_badge_creator(names)
+    b=assign_rooms(speakers)
 
 end
