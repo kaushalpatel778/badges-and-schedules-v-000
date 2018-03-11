@@ -38,13 +38,13 @@ def printer(speakers)
 
   i=0
   while i < speakers.size
-      puts batch_badge_creator(speakers[i])
+      puts batch_badge_creator(speakers)
       i += 1
   end
 
   j=0
   while i < speakers.size
-      puts assign_rooms(speakers[i])
+      puts assign_rooms(speakers)
       i += 1
   end
 
