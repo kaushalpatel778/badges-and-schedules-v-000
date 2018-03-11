@@ -26,7 +26,7 @@ def assign_rooms(speakers)
 end
 
 def printer(speakers)
-    
+
     batch_badge_creator(speakers).each do |val|
       puts val
     end
@@ -34,5 +34,5 @@ def printer(speakers)
     assign_rooms(speakers).each do |val|
       puts val
     end
-    
+
 end
