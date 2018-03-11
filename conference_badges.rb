@@ -3,7 +3,12 @@ def badge_maker(args)
   return "Hello, my name is #{args}."
 end
 def batch_badge_creator (names)
-
+  
+  speakers = []
+  while i < names.size
+    speakers << "Hello,my name is #{speakers}."
+    i += 1
+  end
 
 end
 
