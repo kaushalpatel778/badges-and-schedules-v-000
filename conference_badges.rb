@@ -18,7 +18,7 @@ def assign_rooms(speakers)
     arr = []
     i=0
     while i < speakers.size
-      arr << "Hello, #{speakers[i]}! You'll be assigned to room #{i+1}"
+      arr << "Hello, #{speakers[i]}! You'll be assigned to room #{i+1}!"
       i += 1
     end
     return arr
