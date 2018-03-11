@@ -5,8 +5,9 @@ end
 def batch_badge_creator (names)
 
   speakers = []
+i=0
   while i < names.size
-    speakers << "Hello,my name is #{names[i]}."
+    speakers << "Hello, my name is #{names[i]}."
     i += 1
   end
 return speakers
