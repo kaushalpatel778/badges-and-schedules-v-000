@@ -14,4 +14,5 @@ def assign_rooms(speakers)
       arr << "Hello, #{speakers}! You'll be assigned to room #{i}"
       i += 1
     end
+    return arr
 end
